@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Switch Demo</title>
+  <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+  <h1>Doing Different Things with Switch</h1>
+
+  
+  <section id="promptSwitch">
+    <h2>Favorite Day</h2>
+    <button id="favDayBtn">What is your favorite day?</button>
+    <div id="favDayResult" class="result"></div>
+  </section>
+
+  
+  <section id="dropdownSwitch">
+    <h2>Select a Day</h2>
+    <select id="daySelect">
+      <option value="">-- Choose a day --</option>
+      <option>Sunday</option>
+      <option>Monday</option>
+      <option>Tuesday</option>
+      <option>Wednesday</option>
+      <option>Thursday</option>
+      <option>Friday</option>
+      <option>Saturday</option>
+    </select>
+    <button id="showDayBtn">Show Activity</button>
+    <div id="dayResult" class="result"></div>
+  </section>
+
+  
+  <section id="calendar">
+    <h2>Activity for Today</h2>
+    <div id="todaysdate"></div>
+    <button id="activityBtn">What should I do today?</button>
+    <div id="activityResult" class="result"></div>
+    <div id="moreInfo" class="result"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modulo with Decimals Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="calculator">
+    <header>
+      <h1>Modulo with Decimals</h1>
+      <p>Compute the remainder of 9 ÷ 2.5</p>
+    </header>
+
+    <div class="input-area">
+      <h2>Step 1: Enter the 1st Operand</h2>
+      <input type="text" id="operand1" value="9" />
+      <select id="operand1-type">
+        <option value="number" selected>number</option>
+        <option value="string">string</option>
+      </select>
+    </div>
+
+    <div class="input-area">
+      <h2>Step 2: Choose an Operator</h2>
+      <div class="operator-choices">
+        <input type="radio" name="operator" value="%" checked> % (remainder)
+      </div>
+    </div>
+
+    <div class="input-area">
+      <h2>Step 3: Enter the 2nd Operand</h2>
+      <input type="text" id="operand2" value="2.5" />
+      <select id="operand2-type">
+        <option value="number" selected>number</option>
+        <option value="string">string</option>
+      </select>
+    </div>
+
+    <div class="input-area">
+      <h2>Step 4: Click the Button</h2>
+      <input type="submit" id="submit" value="Operate!" />
+    </div>
+
+    <hr>
+
+    <div class="output-area">
+      <h2>Output</h2>
+      <h3>Operation</h3>
+      <span id="final-operation">9%2.5</span>
+      <h3>Return Value:</h3>
+      <span id="result">1.5</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

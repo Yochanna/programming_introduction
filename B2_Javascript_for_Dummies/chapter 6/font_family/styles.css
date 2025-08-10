@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;  
+  text-align: center;
+  margin: 2rem;
+}
+
+p {
+  font-size: 1em;
+  margin: 1rem 0;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+#orderForm {
+  background-color: #eeeeee;
+  border: 4px solid yellow;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px auto;
+  max-width: 400px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#orderForm label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+#orderForm input,
+#orderForm select {
+  margin-left: 0.5rem;
+}
+
+#orderForm button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#displayTotal {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.feedback {
+  color: #b71c1c;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

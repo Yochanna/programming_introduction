@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+}
+
+#output-area {
+  margin-top: 1rem;
+  text-align: left;
+  background: #f5f5f5;
+  padding: 1rem;
+  white-space: pre-wrap;
+  font-size: 1rem;
+}
+
+

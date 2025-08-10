@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-area {
+  margin-bottom: 1rem;
+}
+
+.form-area label {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.form-area input {
+  width: 200px;
+  padding: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.form-area button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: disc inside;
+  margin-bottom: 2rem;
+}
+
+@media print {
+  
+  body * {
+    display: none;
+  }
+ 
+  .print-only {
+    display: block !important;
+  }
+}
+
+

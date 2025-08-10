@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NaN Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="calculator">
+    <header>
+      <h1>NaN Demo</h1>
+      <p>Enter non-numeric text and click Operate! to see <strong>NaN</strong></p>
+    </header>
+
+    <div class="input-area">
+      <h2>Step 1: Enter the 1st Operand</h2>
+      <input type="text" id="operand1" value="abc" />
+      <select id="operand1-type">
+        <option value="number">number</option>
+        <option value="string" selected>string</option>
+      </select>
+    </div>
+
+    <div class="input-area">
+      <h2>Step 2: Choose an Operator</h2>
+      <div class="operator-choices">
+        <input type="radio" name="operator" value="+" checked> +&nbsp;
+      </div>
+    </div>
+
+    <div class="input-area">
+      <h2>Step 3: Enter the 2nd Operand</h2>
+      <input type="text" id="operand2" value="abc" />
+      <select id="operand2-type">
+        <option value="number">number</option>
+        <option value="string" selected>string</option>
+      </select>
+    </div>
+
+    <div class="input-area">
+      <h2>Step 4: Click the Button</h2>
+      <input type="submit" id="submit" value="Operate!" />
+    </div>
+
+    <hr>
+
+    <div class="output-area">
+      <h2>Output</h2>
+      <h3>Operation</h3>
+      <span id="final-operation">"abc"+"abc"</span>
+      <h3>Return Value:</h3>
+      <span id="result">NaN</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

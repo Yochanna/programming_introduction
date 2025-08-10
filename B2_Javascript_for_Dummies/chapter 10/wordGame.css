@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#prompts {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+#prompts li {
+  margin: 0.5rem 0;
+}
+
+#prompts label {
+  display: inline-block;
+  width: 200px;
+}
+
+#prompts input {
+  width: 200px;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#story {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  white-space: pre-wrap;
+}
