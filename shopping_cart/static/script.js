@@ -1,8 +1,8 @@
 // Simple demo item data. You can change names & prices as needed.
 const ITEMS = [
-  { id: 1, name: "Item A", price: 10 },
-  { id: 2, name: "Item B", price: 20 },
-  { id: 3, name: "Item C", price: 30 },
+  { id: 1, name: "Chocolate Hamper", price: 15 },
+  { id: 2, name: "Dried Fruit Basket", price: 24 },
+  { id: 3, name: "Cleaning Set", price: 21 },
 ];
 
 const itemList = document.getElementById("item-list");
